@@ -1,0 +1,126 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+h1, h2 {
+    color: #c70b0b;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin: 0.5em 0;
+}
+
+a.cta-button {
+    display: inline-block;
+    margin-top: 1em;
+    padding: 0.75em 2em;
+    background-color: #e6007e;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+a.cta-button:hover {
+    background-color: #c40069;
+}
+
+/* Hero Section - Full-Screen */
+.home {
+    background-image: url('img/2.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 100vh; /* Full height of the viewport */
+    display: flex;
+    align-items: center; /* Vertically center content */
+    justify-content: center; /* Horizontally center content */
+    text-align: center;
+    padding: 0 20px;
+}
+
+.home h1 {
+    font-size: 3em;
+    margin: 0.2em 0;
+}
+
+.home p {
+    font-size: 1.5em;
+}
+
+/* Responsive Image Styling */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* About Bouquet Bar Section - Full-Screen */
+.about-bouquet-bar {
+    background-image: url('img/.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: #ffffff;
+    height: 100vh; /* Full height of the viewport */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.about-bouquet-bar h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.about-bouquet-bar .image-collage {
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.about-bouquet-bar .image-collage img {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+/* About Power Digital Section - Full-Screen */
+.about-power-digital {
+    background-color: #f5f5f5;
+    height: 100vh; /* Full height of the viewport */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.about-power-digital h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.about-power-digital .team-image {
+    margin: 10px 0;
+}
+
+.about-power-digital .team-image img {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
